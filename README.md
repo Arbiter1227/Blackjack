@@ -17,8 +17,5 @@ If you stand on your first turn (which you should never, BTW), it does some wack
 ## AI   
 The Enemy AI will automatically stand if it's score is higher than 15.  
 Use this info to your advantage.  
-## Auto-Format broke  
-As you may know, I suck at formatting, so my code looks like garbage.  
-Sorry about that.  
 ## Forks  
 Not much to add here, so IDK.
