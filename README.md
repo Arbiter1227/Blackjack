@@ -15,8 +15,7 @@ To "stand" means to end your turn...permanently. Once you think that your score 
 # About  
 Now that you understand the game, here's some info about the code.
 ## Bugs  
-So far, I've only found one.  
-If you stand on your first turn (which you should never, BTW), it does some wacky things.  
+So far, I haven't found any.  
 ## AI   
 The Enemy AI will automatically stand if it's score is higher than 15.  
 Use this info to your advantage.  
