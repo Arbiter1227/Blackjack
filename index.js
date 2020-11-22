@@ -5,10 +5,10 @@ function main() {
   var data = setup();
   while (data.player.done === false || data.enemy.done === false) {
     if (!(data.player.score >= 21 || data.player.done === true)) {
-    console.log('~Player Turn~');
-    console.log();
-    console.log(`Your score is ${data.player.score}.`);
-    console.log();
+      console.log('~Player Turn~');
+      console.log();
+      console.log(`Your score is ${data.player.score}.`);
+      console.log();
       console.log('[1] Hit');
       console.log('[2] Stand');
       console.log();
@@ -47,41 +47,41 @@ function main() {
       console.log();
     }
   }
-console.log('~Results Time~');
-console.log();
-if (data.player.score > 21) {
-data.player.score = 999;
-} else {
-  data.player.score = Math.abs((21 - data.player.score));
-}
-if (data.enemy.score > 21) {
-data.enemy.score = 999;
-} else {
-  data.enemy.score = Math.abs((21 - data.enemy.score));
-}
-if (data.player.score === data.enemy.score) {
-  var result = 'tie';
-} else if (data.player.score < data.enemy.score) {
-  var result = 'win';
-} else {
-  var result = 'lose';
-}
-switch(result) {
-  case 'tie':
-  console.log('Tie!');
-  break;
-  case 'win':
-  console.log('You win!');
-  break;
-  case 'lose':
-  console.log('You lose.');
-  break;
-}
-console.log();
-console.log('(press enter to play again)');
-console.log();
-prompt('');
-main();
+  console.log('~Results Time~');
+  console.log();
+  if (data.player.score > 21) {
+    data.player.score = 999;
+  } else {
+    data.player.score = Math.abs((21 - data.player.score));
+  }
+  if (data.enemy.score > 21) {
+    data.enemy.score = 999;
+  } else {
+    data.enemy.score = Math.abs((21 - data.enemy.score));
+  }
+  if (data.player.score === data.enemy.score) {
+    var result = 'tie';
+  } else if (data.player.score < data.enemy.score) {
+    var result = 'win';
+  } else {
+    var result = 'lose';
+  }
+  switch (result) {
+    case 'tie':
+      console.log('Tie!');
+      break;
+    case 'win':
+      console.log('You win!');
+      break;
+    case 'lose':
+      console.log('You lose.');
+      break;
+  }
+  console.log();
+  console.log('(press enter to play again)');
+  console.log();
+  prompt('');
+  main();
 }
 
 function setup() {
