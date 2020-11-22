@@ -1,3 +1,9 @@
+/*
+This script's held together by duct tape and popsicle sticks.
+
+I'm too scared to stare at it for too long, let alone comment on it.
+*/
+
 main();
 
 function main() {
@@ -24,6 +30,7 @@ function main() {
         console.log(`(Your current score is ${data.player.score})`);
         if (data.player.score >= 21) {
           data.player.done = true;
+          console.log('(You automatically stood since your score is 21 or greater)');
         }
       }
       console.log();
