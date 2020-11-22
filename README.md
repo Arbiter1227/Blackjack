@@ -3,7 +3,10 @@ Please credit me if you use any of the code in here (as if).
 # Guide  
 If you've never played Blackjack (or "21", as it's occasionally called), this is a brief guide explaining the basics.  
 ## Winning  
-The idea of the game is to draw random cards (which represent points) from a deck and whoever's score is closest to 21 (without going over) wins.
+The idea of the game is to draw random cards (which represent points) from a deck and whoever's score is closest to 21 (without going over) wins.  
+This may seem like a game of luck, but it's actually more about perception.  
+For example, let's say your enemy had 16 points, and they drew a 9 card. They now have 25 points, well over 21, which means they automatically lose.  
+No matter how low your score is, you can stand and win.
 ## Terms  
 - Hit  
 To "hit" means to ask for a new card. Aces are worth 1 point, a 2 is worth 2 points, and so on. Cards that have faces (i.e. kings, jacks, queens) are all worth 10 points.  
